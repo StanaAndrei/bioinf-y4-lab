@@ -1,0 +1,24 @@
+=== COMPARATIE MODELE ML ===
+
+--- 1. Random Forest ---
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       688
+           1       0.97      0.97      0.97       162
+           2       0.98      0.98      0.98       839
+
+    accuracy                           0.98      1689
+   macro avg       0.97      0.97      0.97      1689
+weighted avg       0.98      0.98      0.98      1689
+
+
+--- 2. Logistic Regression ---
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97       688
+           1       0.96      0.96      0.96       162
+           2       0.97      0.97      0.97       839
+
+    accuracy                           0.97      1689
+   macro avg       0.97      0.97      0.97      1689
+weighted avg       0.97      0.97      0.97      1689

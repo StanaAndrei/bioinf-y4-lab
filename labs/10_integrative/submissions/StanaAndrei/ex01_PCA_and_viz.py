@@ -18,7 +18,6 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-# Înlocuiește cu handle-ul tău real dacă rulezi local
 HANDLE = "StanaAndrei"
 
 SNP_CSV = Path(f"data/work/{HANDLE}/lab10/snp_matrix_{HANDLE}.csv")

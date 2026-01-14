@@ -13,11 +13,9 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-# Înlocuiește cu handle-ul tău real
-HANDLE = "<handle>"
+HANDLE = "StanaAndrei"
 
-# Atenție: Calea de input trebuie să fie fișierul generat la exercițiul anterior (joint/concat)
-# Dacă la exercițiul anterior nu l-ai salvat cu acest nume, modifică aici.
+
 JOINT_CSV = Path(f"labs/10_integrative/submissions/{HANDLE}/multiomics_concat_{HANDLE}.csv")
 
 OUT_CSV = Path(f"labs/10_integrative/submissions/{HANDLE}/snp_gene_pairs_{HANDLE}.csv")
